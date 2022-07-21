@@ -1,5 +1,9 @@
 package net.javaguides.springboot.service;
 
-public interface EmployeeService {
+import java.util.List;
 
+import net.javaguides.springboot.model.Employee;
+
+public interface EmployeeService {
+	List<Employee> getAllEmployees();
 }
